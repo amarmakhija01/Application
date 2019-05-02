@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Prime Number Generator</title>
+</head>
+<body>
+<div align="center">
+    <h1> Welcome to the Prime Number Generator</h1>
+
+
+    <form action="schedule" method="post">
+        <label for="primeNumber">Enter Your Number</label>
+        <input id="primeNumber" type="number"  name="primeNumber"/>
+        <br><br>
+        <label for="cronExpression">Enter CronExpression</label>
+        <input id="cronExpression"  name="cronExpression"/>
+
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+
+
+</div>
+</body>
+</html>

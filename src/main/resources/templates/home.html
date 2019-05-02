@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Prime Number Generator</title>
+</head>
+<body>
+<div align="center">
+
+    <h1> Welcome to the Prime Number Generator</h1>
+
+    <form action="prime" method="post">
+        <label for="primeNumber">Enter Your Number</label>
+        <input id="primeNumber" type="number"  name="primeNumber"/>
+        <input type="submit" value="Submit">
+    </form>
+    <br><br>
+    <a th:href="schedule">For-Later-Scheduling</a>
+
+</div>
+</body>
+</html>
